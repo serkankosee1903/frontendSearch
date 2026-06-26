@@ -2,12 +2,14 @@ name: Daily Job Scraper
 
 on:
   schedule:
-    # Günde 3 kez çalıştırır (Sabah 08:00, Öğlen 14:00, Akşam 20:00 - UTC saatine göre ayarlanmıştır, TSİ için +3)
     - cron: '0 5,11,17 * * *'
-  workflow_dispatch: # Manuel tetiklemeye izin verir
+  workflow_dispatch:
+
+permissions:
+  contents: write # Git commit yapabilmesi için izin veriyoruz
 
 jobs:
-  scrape_and_deploy:
+  scrape_and_notify:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,21 +35,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          # .env dosyasını runtime'da secret'lardan oluşturuyoruz
           echo "TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}" > .env
           echo "TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}" >> .env
           python telegram_notifier.py
 
-      - name: Prepare Files for FTP
-        run: |
-          # HTML dosyasını ana sayfa (index.html) olması için kopyalıyoruz
-          cp output/report.html output/index.html
-
-      - name: Sync FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Save state (sent_jobs.json) to GitHub
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./output/ # Sadece output klasörünün içeriğini gönderir
-          dangerous-clean-slate: false # Eski dosyaları tamamen silmemesi için
+          commit_message: "chore: update sent_jobs.json and latest.json"
+          file_pattern: "output/*.json"
