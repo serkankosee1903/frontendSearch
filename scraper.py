@@ -1002,7 +1002,7 @@ def build_html(jobs: list[dict]) -> str:
 
 <div class="container">
   <div class="job-grid" id="jobGrid">
-    {cards_html if jobs else '<div class="empty"><h2>📭 Ilan Bulunamadı</h2><p>Scraper\'ı tekrar çalıştırın: <code>python scraper.py</code></p></div>'}
+    {cards_html if jobs else "<div class='empty'><h2>📭 Ilan Bulunamadı</h2><p>Scraper'ı tekrar çalıştırın: <code>python scraper.py</code></p></div>"}
   </div>
   <div class="empty" id="emptyState" style="display:none;">
     <h2>😔 Sonuç bulunamadı</h2>
