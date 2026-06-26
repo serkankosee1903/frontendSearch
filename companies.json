@@ -1,0 +1,2138 @@
+[
+  {
+    "name": "Trendyol",
+    "url": "https://www.trendyol.com",
+    "logo": "🛒"
+  },
+  {
+    "name": "Hepsiburada",
+    "url": "https://www.hepsiburada.com",
+    "logo": "🛍️"
+  },
+  {
+    "name": "Getir",
+    "url": "https://getir.com",
+    "logo": "🚀"
+  },
+  {
+    "name": "Yemeksepeti",
+    "url": "https://www.yemeksepeti.com",
+    "logo": "🍕"
+  },
+  {
+    "name": "Sahibinden",
+    "url": "https://www.sahibinden.com",
+    "logo": "🏠"
+  },
+  {
+    "name": "n11",
+    "url": "https://www.n11.com",
+    "logo": "🛒"
+  },
+  {
+    "name": "GittiGidiyor",
+    "url": "https://www.gittigidiyor.com",
+    "logo": "🛒"
+  },
+  {
+    "name": "Çiçeksepeti",
+    "url": "https://www.ciceksepeti.com",
+    "logo": "🌸"
+  },
+  {
+    "name": "Modanisa",
+    "url": "https://www.modanisa.com",
+    "logo": "👗"
+  },
+  {
+    "name": "Dolap",
+    "url": "https://dolap.com",
+    "logo": "👕"
+  },
+  {
+    "name": "Flo",
+    "url": "https://www.flo.com.tr",
+    "logo": "👟"
+  },
+  {
+    "name": "LC Waikiki",
+    "url": "https://www.lcwaikiki.com",
+    "logo": "👕"
+  },
+  {
+    "name": "Mavi Jeans",
+    "url": "https://www.mavi.com",
+    "logo": "👖"
+  },
+  {
+    "name": "Koton",
+    "url": "https://www.koton.com",
+    "logo": "👗"
+  },
+  {
+    "name": "DeFacto",
+    "url": "https://www.defacto.com.tr",
+    "logo": "🧥"
+  },
+  {
+    "name": "Boyner",
+    "url": "https://www.boyner.com.tr",
+    "logo": "👔"
+  },
+  {
+    "name": "Beymen",
+    "url": "https://www.beymen.com",
+    "logo": "👒"
+  },
+  {
+    "name": "Akinon",
+    "url": "https://akinon.com",
+    "logo": "🛍️"
+  },
+  {
+    "name": "ikas",
+    "url": "https://ikas.com",
+    "logo": "🛍️"
+  },
+  {
+    "name": "Tazedirekt",
+    "url": "https://www.tazedirekt.com",
+    "logo": "🥑"
+  },
+  {
+    "name": "Teknosa",
+    "url": "https://www.teknosa.com",
+    "logo": "🖥️"
+  },
+  {
+    "name": "Vatan Bilgisayar",
+    "url": "https://www.vatanbilgisayar.com",
+    "logo": "💻"
+  },
+  {
+    "name": "MediaMarkt Turkey",
+    "url": "https://www.mediamarkt.com.tr",
+    "logo": "📺"
+  },
+  {
+    "name": "Hepsijet",
+    "url": "https://www.hepsijet.com",
+    "logo": "📦"
+  },
+  {
+    "name": "Gratis",
+    "url": "https://www.gratis.com",
+    "logo": "💄"
+  },
+  {
+    "name": "Watsons Turkey",
+    "url": "https://www.watsons.com.tr",
+    "logo": "🧴"
+  },
+  {
+    "name": "Ebebek",
+    "url": "https://www.ebebek.com",
+    "logo": "🍼"
+  },
+  {
+    "name": "D&R",
+    "url": "https://www.dr.com.tr",
+    "logo": "📚"
+  },
+  {
+    "name": "Morhipo",
+    "url": "https://www.morhipo.com",
+    "logo": "👗"
+  },
+  {
+    "name": "Shopiverse",
+    "url": "https://shopiverse.com",
+    "logo": "🛍️"
+  },
+  {
+    "name": "Papara",
+    "url": "https://www.papara.com",
+    "logo": "💳"
+  },
+  {
+    "name": "iyzico",
+    "url": "https://www.iyzico.com",
+    "logo": "💰"
+  },
+  {
+    "name": "PayTR",
+    "url": "https://www.paytr.com",
+    "logo": "💳"
+  },
+  {
+    "name": "Sipay",
+    "url": "https://www.sipay.com.tr",
+    "logo": "💱"
+  },
+  {
+    "name": "Param",
+    "url": "https://param.com.tr",
+    "logo": "💰"
+  },
+  {
+    "name": "Tosla",
+    "url": "https://tosla.com",
+    "logo": "💸"
+  },
+  {
+    "name": "Ininal",
+    "url": "https://www.ininal.com",
+    "logo": "💳"
+  },
+  {
+    "name": "Craftgate",
+    "url": "https://craftgate.io",
+    "logo": "💳"
+  },
+  {
+    "name": "BtcTurk",
+    "url": "https://www.btcturk.com",
+    "logo": "₿"
+  },
+  {
+    "name": "Paribu",
+    "url": "https://www.paribu.com",
+    "logo": "💹"
+  },
+  {
+    "name": "Bitexen",
+    "url": "https://bitexen.com",
+    "logo": "₿"
+  },
+  {
+    "name": "Icrypex",
+    "url": "https://www.icrypex.com",
+    "logo": "🔐"
+  },
+  {
+    "name": "Colendi",
+    "url": "https://colendi.com",
+    "logo": "💰"
+  },
+  {
+    "name": "Paycell",
+    "url": "https://paycell.com.tr",
+    "logo": "💳"
+  },
+  {
+    "name": "Hopi",
+    "url": "https://hopi.com.tr",
+    "logo": "🎁"
+  },
+  {
+    "name": "Paraşüt",
+    "url": "https://parasut.com",
+    "logo": "📋"
+  },
+  {
+    "name": "Token Finansal Teknoloji",
+    "url": "https://www.token.com.tr",
+    "logo": "🔑"
+  },
+  {
+    "name": "Vepara",
+    "url": "https://www.vepara.com.tr",
+    "logo": "💳"
+  },
+  {
+    "name": "Lidio",
+    "url": "https://lidio.com",
+    "logo": "💰"
+  },
+  {
+    "name": "Hayat Finans",
+    "url": "https://www.hayatfinans.com.tr",
+    "logo": "💰"
+  },
+  {
+    "name": "Garanti BBVA Teknoloji",
+    "url": "https://www.garantibbvateknoloji.com.tr",
+    "logo": "💳"
+  },
+  {
+    "name": "Yapı Kredi Teknoloji",
+    "url": "https://www.ykteknoloji.com.tr",
+    "logo": "🏛️"
+  },
+  {
+    "name": "İştech",
+    "url": "https://www.istech.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Softtech",
+    "url": "https://www.softtech.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Intertech",
+    "url": "https://www.intertech.com.tr",
+    "logo": "💻"
+  },
+  {
+    "name": "Ziraat Teknoloji",
+    "url": "https://www.ziraatteknoloji.com",
+    "logo": "🌾"
+  },
+  {
+    "name": "Akbank",
+    "url": "https://www.akbank.com",
+    "logo": "🏦"
+  },
+  {
+    "name": "ING Turkey",
+    "url": "https://www.ing.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Fibabanka",
+    "url": "https://www.fibabanka.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Denizbank",
+    "url": "https://www.denizbank.com",
+    "logo": "🏦"
+  },
+  {
+    "name": "TEB Teknoloji",
+    "url": "https://www.teb.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Odeabank",
+    "url": "https://www.odeabank.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Albaraka Türk",
+    "url": "https://www.albarakaturk.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Kuveyt Türk",
+    "url": "https://www.kuveytturk.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Vakıfbank Teknoloji",
+    "url": "https://www.vakifbankteknoloji.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Halkbank Teknoloji",
+    "url": "https://www.halkbankteknoloji.com.tr",
+    "logo": "🏦"
+  },
+  {
+    "name": "Sigortam.net",
+    "url": "https://www.sigortam.net",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Aksigorta",
+    "url": "https://www.aksigorta.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Allianz Türkiye",
+    "url": "https://www.allianz.com.tr",
+    "logo": "🔵"
+  },
+  {
+    "name": "Anadolu Sigorta",
+    "url": "https://www.anadolusigorta.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Avivasa",
+    "url": "https://www.avivasa.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Turkcell",
+    "url": "https://www.turkcell.com.tr",
+    "logo": "📱"
+  },
+  {
+    "name": "Turkcell Teknoloji",
+    "url": "https://turkcellteknoloji.com.tr",
+    "logo": "📡"
+  },
+  {
+    "name": "TT Teknoloji",
+    "url": "https://ttteknoloji.com.tr",
+    "logo": "📞"
+  },
+  {
+    "name": "Türk Telekom",
+    "url": "https://www.turktelekom.com.tr",
+    "logo": "📶"
+  },
+  {
+    "name": "Vodafone Turkey",
+    "url": "https://www.vodafone.com.tr",
+    "logo": "📶"
+  },
+  {
+    "name": "Superonline",
+    "url": "https://www.superonline.net",
+    "logo": "🌐"
+  },
+  {
+    "name": "TurkNet",
+    "url": "https://www.turknet.net.tr",
+    "logo": "🌐"
+  },
+  {
+    "name": "BiP",
+    "url": "https://bip.com.tr",
+    "logo": "💬"
+  },
+  {
+    "name": "Türksat",
+    "url": "https://www.turksat.com.tr",
+    "logo": "🛰️"
+  },
+  {
+    "name": "Global Bilgi",
+    "url": "https://www.globalbilgi.com.tr",
+    "logo": "🌍"
+  },
+  {
+    "name": "Millenicom",
+    "url": "https://www.millenicom.com.tr",
+    "logo": "📡"
+  },
+  {
+    "name": "Dream Games",
+    "url": "https://www.dreamgames.com",
+    "logo": "🎯"
+  },
+  {
+    "name": "Peak Games",
+    "url": "https://www.peakgames.net",
+    "logo": "🎮"
+  },
+  {
+    "name": "Spyke Games",
+    "url": "https://www.spykegames.com",
+    "logo": "🎮"
+  },
+  {
+    "name": "Rollic Games",
+    "url": "https://rollic.games",
+    "logo": "🎲"
+  },
+  {
+    "name": "Gram Games",
+    "url": "https://www.gramgames.com",
+    "logo": "🎯"
+  },
+  {
+    "name": "Masomo",
+    "url": "https://masomo.com",
+    "logo": "⚽"
+  },
+  {
+    "name": "Bigger Games",
+    "url": "https://www.biggergames.com",
+    "logo": "🎮"
+  },
+  {
+    "name": "Codeway",
+    "url": "https://codeway.co",
+    "logo": "📱"
+  },
+  {
+    "name": "Good Job Games",
+    "url": "https://goodjobgames.com",
+    "logo": "✅"
+  },
+  {
+    "name": "Fugo Games",
+    "url": "https://fugogames.com",
+    "logo": "🎮"
+  },
+  {
+    "name": "Joygame",
+    "url": "https://www.joygame.com",
+    "logo": "😄"
+  },
+  {
+    "name": "Nays Games",
+    "url": "https://nays.com.tr",
+    "logo": "🎮"
+  },
+  {
+    "name": "Coda Platform",
+    "url": "https://www.codaplatform.com",
+    "logo": "🎮"
+  },
+  {
+    "name": "Plarium",
+    "url": "https://plarium.com",
+    "logo": "⚔️"
+  },
+  {
+    "name": "Zynga Istanbul",
+    "url": "https://www.zynga.com",
+    "logo": "🃏"
+  },
+  {
+    "name": "Supercell",
+    "url": "https://supercell.com",
+    "logo": "🏆"
+  },
+  {
+    "name": "Logo Yazılım",
+    "url": "https://www.logo.com.tr",
+    "logo": "💼"
+  },
+  {
+    "name": "Insider",
+    "url": "https://useinsider.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Segmentify",
+    "url": "https://www.segmentify.com",
+    "logo": "📈"
+  },
+  {
+    "name": "UserGuiding",
+    "url": "https://userguiding.com",
+    "logo": "👥"
+  },
+  {
+    "name": "Prisync",
+    "url": "https://prisync.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Storyly",
+    "url": "https://storyly.io",
+    "logo": "📖"
+  },
+  {
+    "name": "Jotform",
+    "url": "https://www.jotform.com",
+    "logo": "📝"
+  },
+  {
+    "name": "Testinium",
+    "url": "https://testinium.com",
+    "logo": "🧪"
+  },
+  {
+    "name": "Appcircle",
+    "url": "https://appcircle.io",
+    "logo": "⭕"
+  },
+  {
+    "name": "Vispera",
+    "url": "https://vispera.co",
+    "logo": "👁️"
+  },
+  {
+    "name": "Bimser",
+    "url": "https://www.bimser.com.tr",
+    "logo": "⚙️"
+  },
+  {
+    "name": "IdeaSoft",
+    "url": "https://www.ideasoft.com.tr",
+    "logo": "💡"
+  },
+  {
+    "name": "Netmera",
+    "url": "https://netmera.com",
+    "logo": "📱"
+  },
+  {
+    "name": "NetGSM",
+    "url": "https://www.netgsm.com.tr",
+    "logo": "📱"
+  },
+  {
+    "name": "Mikro Yazılım",
+    "url": "https://www.mikro.com.tr",
+    "logo": "📊"
+  },
+  {
+    "name": "Netsis",
+    "url": "https://www.netsis.com.tr",
+    "logo": "💾"
+  },
+  {
+    "name": "Uyumsoft",
+    "url": "https://www.uyumsoft.com.tr",
+    "logo": "📖"
+  },
+  {
+    "name": "Apsiyon",
+    "url": "https://apsiyon.com",
+    "logo": "🏠"
+  },
+  {
+    "name": "Picus Security",
+    "url": "https://www.picussecurity.com",
+    "logo": "🔐"
+  },
+  {
+    "name": "Berqnet",
+    "url": "https://www.berqnet.com",
+    "logo": "🔒"
+  },
+  {
+    "name": "Logsign",
+    "url": "https://www.logsign.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Keepnet Labs",
+    "url": "https://keepnetlabs.com",
+    "logo": "🔐"
+  },
+  {
+    "name": "Prodaft",
+    "url": "https://www.prodaft.com",
+    "logo": "🕵️"
+  },
+  {
+    "name": "Biges",
+    "url": "https://biges.com",
+    "logo": "🔐"
+  },
+  {
+    "name": "Cybersoft",
+    "url": "https://cybersoft.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Brandefense",
+    "url": "https://brandefense.io",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Biznet Teknoloji",
+    "url": "https://www.biznet.com.tr",
+    "logo": "🌐"
+  },
+  {
+    "name": "KoçSistem",
+    "url": "https://www.kocsistem.com.tr",
+    "logo": "🏢"
+  },
+  {
+    "name": "Doğuş Teknoloji",
+    "url": "https://www.dogusteknoloji.com",
+    "logo": "🏢"
+  },
+  {
+    "name": "Etiya",
+    "url": "https://www.etiya.com",
+    "logo": "🔷"
+  },
+  {
+    "name": "Innova",
+    "url": "https://www.innova.com.tr",
+    "logo": "💡"
+  },
+  {
+    "name": "Commencis",
+    "url": "https://www.commencis.com",
+    "logo": "📱"
+  },
+  {
+    "name": "Kafein",
+    "url": "https://kafein.com.tr",
+    "logo": "☕"
+  },
+  {
+    "name": "OBSS",
+    "url": "https://obss.com.tr",
+    "logo": "🔧"
+  },
+  {
+    "name": "Invio",
+    "url": "https://invio.com.tr",
+    "logo": "🚚"
+  },
+  {
+    "name": "Opsguru",
+    "url": "https://opsguru.io",
+    "logo": "⚙️"
+  },
+  {
+    "name": "Linktera",
+    "url": "https://linktera.com.tr",
+    "logo": "🔗"
+  },
+  {
+    "name": "Applogist",
+    "url": "https://applogist.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Teknasyon",
+    "url": "https://teknasyon.com",
+    "logo": "🏗️"
+  },
+  {
+    "name": "Appcent",
+    "url": "https://appcent.mobi",
+    "logo": "📱"
+  },
+  {
+    "name": "Mobven",
+    "url": "https://mobven.com",
+    "logo": "📲"
+  },
+  {
+    "name": "Borusan Teknoloji",
+    "url": "https://www.borusanteknoloji.com.tr",
+    "logo": "⚙️"
+  },
+  {
+    "name": "NTT Data Turkey",
+    "url": "https://www.nttdata.com",
+    "logo": "🔷",
+    "career_url": "https://www.nttdata.com/tr"
+  },
+  {
+    "name": "Capgemini Turkey",
+    "url": "https://www.capgemini.com",
+    "logo": "🔵",
+    "career_url": "https://www.capgemini.com/tr-tr"
+  },
+  {
+    "name": "Accenture Turkey",
+    "url": "https://www.accenture.com",
+    "logo": "🟣",
+    "career_url": "https://www.accenture.com/tr-tr"
+  },
+  {
+    "name": "Deloitte Turkey",
+    "url": "https://www2.deloitte.com",
+    "logo": "🟢",
+    "career_url": "https://www2.deloitte.com/tr"
+  },
+  {
+    "name": "IBM Turkey",
+    "url": "https://www.ibm.com",
+    "logo": "🔵",
+    "career_url": "https://www.ibm.com/tr-tr"
+  },
+  {
+    "name": "SAP Turkey",
+    "url": "https://www.sap.com",
+    "logo": "🔷",
+    "career_url": "https://www.sap.com/turkey"
+  },
+  {
+    "name": "Oracle Turkey",
+    "url": "https://www.oracle.com",
+    "logo": "🔴",
+    "career_url": "https://www.oracle.com/tr"
+  },
+  {
+    "name": "Ericsson Turkey",
+    "url": "https://www.ericsson.com",
+    "logo": "📡",
+    "career_url": "https://www.ericsson.com/tr"
+  },
+  {
+    "name": "Cisco Turkey",
+    "url": "https://www.cisco.com",
+    "logo": "🔗",
+    "career_url": "https://www.cisco.com/c/tr_tr"
+  },
+  {
+    "name": "Wipro Turkey",
+    "url": "https://www.wipro.com",
+    "logo": "🌸"
+  },
+  {
+    "name": "Globant Turkey",
+    "url": "https://www.globant.com",
+    "logo": "🌎"
+  },
+  {
+    "name": "EPAM Systems",
+    "url": "https://www.epam.com",
+    "logo": "🔷"
+  },
+  {
+    "name": "Teleperformance Turkey",
+    "url": "https://www.teleperformance.com",
+    "logo": "📞",
+    "career_url": "https://www.teleperformance.com/tr"
+  },
+  {
+    "name": "Arvato Systems Turkey",
+    "url": "https://www.arvato.com",
+    "logo": "🔷",
+    "career_url": "https://www.arvato.com/tr"
+  },
+  {
+    "name": "Havelsan",
+    "url": "https://www.havelsan.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Aselsan",
+    "url": "https://www.aselsan.com.tr",
+    "logo": "⚡"
+  },
+  {
+    "name": "STM Savunma",
+    "url": "https://www.stm.com.tr",
+    "logo": "🛡️"
+  },
+  {
+    "name": "Baykar Teknoloji",
+    "url": "https://www.baykartech.com",
+    "logo": "🛩️"
+  },
+  {
+    "name": "Meteksan",
+    "url": "https://www.meteksan.com",
+    "logo": "📡"
+  },
+  {
+    "name": "Roketsan",
+    "url": "https://www.roketsan.com.tr",
+    "logo": "🚀"
+  },
+  {
+    "name": "TUSAŞ",
+    "url": "https://www.tai.com.tr",
+    "logo": "✈️"
+  },
+  {
+    "name": "Karel",
+    "url": "https://www.karel.com.tr",
+    "logo": "📞"
+  },
+  {
+    "name": "Netaş",
+    "url": "https://www.netas.com.tr",
+    "logo": "📡"
+  },
+  {
+    "name": "Obilet",
+    "url": "https://www.obilet.com",
+    "logo": "🎫"
+  },
+  {
+    "name": "Enuygun",
+    "url": "https://www.enuygun.com",
+    "logo": "✈️"
+  },
+  {
+    "name": "Tatilsepeti",
+    "url": "https://www.tatilsepeti.com",
+    "logo": "🏖️"
+  },
+  {
+    "name": "Etstur",
+    "url": "https://www.etstur.com",
+    "logo": "✈️"
+  },
+  {
+    "name": "Otelz",
+    "url": "https://www.otelz.com",
+    "logo": "🏨"
+  },
+  {
+    "name": "Yolcu360",
+    "url": "https://www.yolcu360.com",
+    "logo": "🚗"
+  },
+  {
+    "name": "Turna.com",
+    "url": "https://www.turna.com",
+    "logo": "✈️"
+  },
+  {
+    "name": "Tatil.com",
+    "url": "https://www.tatil.com",
+    "logo": "🏖️"
+  },
+  {
+    "name": "Odamax",
+    "url": "https://www.odamax.com",
+    "logo": "🏨"
+  },
+  {
+    "name": "Marti Tech",
+    "url": "https://marti.tech",
+    "logo": "🛴"
+  },
+  {
+    "name": "Jolly Tur",
+    "url": "https://www.jolly.com.tr",
+    "logo": "🌍"
+  },
+  {
+    "name": "Biletall",
+    "url": "https://www.biletall.com",
+    "logo": "🎟️"
+  },
+  {
+    "name": "Doktorsitesi",
+    "url": "https://www.doktorsitesi.com",
+    "logo": "🏥"
+  },
+  {
+    "name": "Doktor Takvimi",
+    "url": "https://doktortakvimi.com",
+    "logo": "📅"
+  },
+  {
+    "name": "Wellbees",
+    "url": "https://wellbees.co",
+    "logo": "🐝"
+  },
+  {
+    "name": "Sağlık Sepeti",
+    "url": "https://www.sagliksepeti.com",
+    "logo": "💊"
+  },
+  {
+    "name": "Hekimce",
+    "url": "https://hekimce.com",
+    "logo": "🩺"
+  },
+  {
+    "name": "Acıbadem",
+    "url": "https://www.acibadem.com.tr",
+    "logo": "🏥"
+  },
+  {
+    "name": "Memorial Hastanesi",
+    "url": "https://www.memorial.com.tr",
+    "logo": "🏥"
+  },
+  {
+    "name": "Hepsiemlak",
+    "url": "https://www.hepsiemlak.com",
+    "logo": "🏘️"
+  },
+  {
+    "name": "Emlakjet",
+    "url": "https://www.emlakjet.com",
+    "logo": "✈️"
+  },
+  {
+    "name": "Zingat",
+    "url": "https://www.zingat.com",
+    "logo": "🔔"
+  },
+  {
+    "name": "Endeksa",
+    "url": "https://www.endeksa.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Arabam.com",
+    "url": "https://www.arabam.com",
+    "logo": "🚗"
+  },
+  {
+    "name": "Oto.com.tr",
+    "url": "https://www.oto.com.tr",
+    "logo": "🚗"
+  },
+  {
+    "name": "Carvak",
+    "url": "https://www.carvak.com",
+    "logo": "🚘"
+  },
+  {
+    "name": "Mynet",
+    "url": "https://www.mynet.com",
+    "logo": "🌐"
+  },
+  {
+    "name": "Haberler.com",
+    "url": "https://www.haberler.com",
+    "logo": "📱"
+  },
+  {
+    "name": "BlueTV",
+    "url": "https://www.bluetv.com.tr",
+    "logo": "📺"
+  },
+  {
+    "name": "Gain",
+    "url": "https://gain.tv",
+    "logo": "🎬"
+  },
+  {
+    "name": "Puhutv",
+    "url": "https://puhutv.com",
+    "logo": "🎥"
+  },
+  {
+    "name": "beIN Media Turkey",
+    "url": "https://www.beinsports.com",
+    "logo": "⚽",
+    "career_url": "https://www.beinsports.com/tr"
+  },
+  {
+    "name": "Digiturk",
+    "url": "https://www.digiturk.com.tr",
+    "logo": "📺"
+  },
+  {
+    "name": "Aras Kargo",
+    "url": "https://www.araskargo.com.tr",
+    "logo": "📦"
+  },
+  {
+    "name": "Yurtiçi Kargo",
+    "url": "https://www.yurticicargo.com",
+    "logo": "🚚"
+  },
+  {
+    "name": "MNG Kargo",
+    "url": "https://www.mngkargo.com.tr",
+    "logo": "📫"
+  },
+  {
+    "name": "Sendeo",
+    "url": "https://www.sendeo.com.tr",
+    "logo": "📨"
+  },
+  {
+    "name": "Togg",
+    "url": "https://www.togg.com.tr",
+    "logo": "⚡"
+  },
+  {
+    "name": "Ford Otosan",
+    "url": "https://www.fordotosan.com.tr",
+    "logo": "🚗"
+  },
+  {
+    "name": "Tofaş",
+    "url": "https://www.tofas.com.tr",
+    "logo": "🚙"
+  },
+  {
+    "name": "Doğuş Otomotiv",
+    "url": "https://www.dogusotomotiv.com.tr",
+    "logo": "🚘"
+  },
+  {
+    "name": "Otokoç",
+    "url": "https://www.otokoc.com.tr",
+    "logo": "🏢"
+  },
+  {
+    "name": "Brandnew IO",
+    "url": "https://www.brandnewio.com",
+    "logo": "🧠"
+  },
+  {
+    "name": "Adjust",
+    "url": "https://www.adjust.com",
+    "logo": "📊"
+  },
+  {
+    "name": "Kariyer.net",
+    "url": "https://www.kariyer.net",
+    "logo": "💼",
+    "career_url": "https://www.kariyer.net"
+  },
+  {
+    "name": "Yenibiris.com",
+    "url": "https://www.yenibiris.com",
+    "logo": "👥"
+  },
+  {
+    "name": "Workup",
+    "url": "https://www.workup.com.tr",
+    "logo": "💼",
+    "career_url": "https://www.workup.com.tr"
+  },
+  {
+    "name": "Tureng",
+    "url": "https://tureng.com",
+    "logo": "📚"
+  },
+  {
+    "name": "Bilge Adam Teknoloji",
+    "url": "https://www.bilgeadamteknoloji.com",
+    "logo": "📚"
+  },
+  {
+    "name": "Kodlama.io",
+    "url": "https://www.kodlama.io",
+    "logo": "💻"
+  },
+  {
+    "name": "Microsoft Turkey",
+    "url": "https://www.microsoft.com",
+    "logo": "🪟",
+    "career_url": "https://www.microsoft.com/tr-tr"
+  },
+  {
+    "name": "Google Turkey",
+    "url": "https://careers.google.com",
+    "logo": "🔍",
+    "career_url": "https://careers.google.com"
+  },
+  {
+    "name": "Amazon Turkey",
+    "url": "https://www.amazon.jobs",
+    "logo": "📦",
+    "career_url": "https://www.amazon.jobs"
+  },
+  {
+    "name": "Salesforce Turkey",
+    "url": "https://www.salesforce.com",
+    "logo": "☁️",
+    "career_url": "https://www.salesforce.com/careers"
+  },
+  {
+    "name": "Atlassian",
+    "url": "https://www.atlassian.com",
+    "logo": "🅰️",
+    "career_url": "https://www.atlassian.com/company/careers"
+  },
+  {
+    "name": "Picsart Istanbul",
+    "url": "https://careers.picsart.com",
+    "logo": "🎨",
+    "career_url": "https://careers.picsart.com"
+  },
+  {
+    "name": "Huawei Turkey R&D",
+    "url": "https://career.huawei.com",
+    "logo": "📡",
+    "career_url": "https://career.huawei.com"
+  },
+  {
+    "name": "Siemens Turkey",
+    "url": "https://new.siemens.com",
+    "logo": "⚡",
+    "career_url": "https://new.siemens.com/tr/tr/unternehmen/jobs.html"
+  },
+  {
+    "name": "Booking.com Istanbul",
+    "url": "https://jobs.booking.com",
+    "logo": "🏨",
+    "career_url": "https://jobs.booking.com"
+  },
+  {
+    "name": "Revolut Turkey",
+    "url": "https://www.revolut.com",
+    "logo": "🔄",
+    "career_url": "https://www.revolut.com/careers"
+  },
+  {
+    "name": "Wise Turkey",
+    "url": "https://www.wise.jobs",
+    "logo": "💸",
+    "career_url": "https://www.wise.jobs"
+  },
+  {
+    "name": "Klarna Turkey",
+    "url": "https://www.klarna.com",
+    "logo": "🛍️",
+    "career_url": "https://www.klarna.com/careers"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://www.lifeatspotify.com",
+    "logo": "🎵"
+  },
+  {
+    "name": "TikTok Turkey",
+    "url": "https://careers.tiktok.com",
+    "logo": "🎵",
+    "career_url": "https://careers.tiktok.com"
+  },
+  {
+    "name": "N26",
+    "url": "https://n26.com",
+    "logo": "💳",
+    "career_url": "https://n26.com/en-eu/careers"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "logo": "🎨",
+    "career_url": "https://www.figma.com/careers"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "logo": "📓",
+    "career_url": "https://www.notion.so/careers"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "logo": "💳",
+    "career_url": "https://stripe.com/jobs"
+  },
+  {
+    "name": "Miro",
+    "url": "https://miro.com",
+    "logo": "🖍️",
+    "career_url": "https://miro.com/careers"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "logo": "🎨",
+    "career_url": "https://www.canva.com/careers"
+  },
+  {
+    "name": "Expedia",
+    "url": "https://lifeatexpediagroup.com",
+    "logo": "✈️"
+  },
+  {
+    "name": "Trivago Turkey",
+    "url": "https://www.trivago.com",
+    "logo": "🏨",
+    "career_url": "https://www.trivago.com/en-US/selectio/jobs"
+  },
+  {
+    "name": "Getmobil",
+    "url": "https://www.getmobil.com",
+    "logo": "📱"
+  },
+  {
+    "name": "Flowla",
+    "url": "https://www.flowla.com",
+    "logo": "🌊"
+  },
+  {
+    "name": "Google",
+    "url": "https://careers.google.com",
+    "logo": "🏢",
+    "career_url": "https://careers.google.com"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://careers.microsoft.com",
+    "logo": "🏢",
+    "career_url": "https://careers.microsoft.com"
+  },
+  {
+    "name": "Apple",
+    "url": "https://www.apple.com",
+    "logo": "🏢",
+    "career_url": "https://www.apple.com/careers"
+  },
+  {
+    "name": "Meta",
+    "url": "https://www.metacareers.com",
+    "logo": "🏢",
+    "career_url": "https://www.metacareers.com"
+  },
+  {
+    "name": "Amazon",
+    "url": "https://amazon.jobs",
+    "logo": "🏢",
+    "career_url": "https://amazon.jobs"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://jobs.netflix.com",
+    "logo": "🏢",
+    "career_url": "https://jobs.netflix.com"
+  },
+  {
+    "name": "Airbnb",
+    "url": "https://careers.airbnb.com",
+    "logo": "🏢",
+    "career_url": "https://careers.airbnb.com"
+  },
+  {
+    "name": "Uber",
+    "url": "https://www.uber.com",
+    "logo": "🏢",
+    "career_url": "https://www.uber.com/careers"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://careers.twitter.com",
+    "logo": "🏢",
+    "career_url": "https://careers.twitter.com"
+  },
+  {
+    "name": "Snap",
+    "url": "https://careers.snap.com",
+    "logo": "🏢",
+    "career_url": "https://careers.snap.com"
+  },
+  {
+    "name": "TikTok",
+    "url": "https://careers.tiktok.com",
+    "logo": "🏢",
+    "career_url": "https://careers.tiktok.com"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://careers.linkedin.com",
+    "logo": "🏢",
+    "career_url": "https://careers.linkedin.com"
+  },
+  {
+    "name": "Dropbox",
+    "url": "https://jobs.dropbox.com",
+    "logo": "🏢",
+    "career_url": "https://jobs.dropbox.com"
+  },
+  {
+    "name": "Slack",
+    "url": "https://slack.com",
+    "logo": "🏢",
+    "career_url": "https://slack.com/careers"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "logo": "🏢",
+    "career_url": "https://www.twilio.com/company/jobs"
+  },
+  {
+    "name": "Zoom",
+    "url": "https://careers.zoom.us",
+    "logo": "🏢",
+    "career_url": "https://careers.zoom.us"
+  },
+  {
+    "name": "Shopify",
+    "url": "https://www.shopify.com",
+    "logo": "🏢",
+    "career_url": "https://www.shopify.com/careers"
+  },
+  {
+    "name": "Square",
+    "url": "https://careers.squareup.com",
+    "logo": "🏢",
+    "career_url": "https://careers.squareup.com"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://careers.pinterest.com",
+    "logo": "🏢",
+    "career_url": "https://careers.pinterest.com"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.redditinc.com",
+    "logo": "🏢",
+    "career_url": "https://www.redditinc.com/careers"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.com",
+    "logo": "🏢",
+    "career_url": "https://discord.com/careers"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "logo": "🏢",
+    "career_url": "https://github.com/about/careers"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://about.gitlab.com",
+    "logo": "🏢",
+    "career_url": "https://about.gitlab.com/jobs/"
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "logo": "🏢",
+    "career_url": "https://vercel.com/careers"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com",
+    "logo": "🏢",
+    "career_url": "https://supabase.com/careers"
+  },
+  {
+    "name": "Netlify",
+    "url": "https://www.netlify.com",
+    "logo": "🏢",
+    "career_url": "https://www.netlify.com/careers/"
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://www.cloudflare.com",
+    "logo": "🏢",
+    "career_url": "https://www.cloudflare.com/careers/"
+  },
+  {
+    "name": "Fastly",
+    "url": "https://www.fastly.com",
+    "logo": "🏢",
+    "career_url": "https://www.fastly.com/about/careers"
+  },
+  {
+    "name": "Datadog",
+    "url": "https://careers.datadoghq.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.datadoghq.com/"
+  },
+  {
+    "name": "Snowflake",
+    "url": "https://careers.snowflake.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.snowflake.com/"
+  },
+  {
+    "name": "MongoDB",
+    "url": "https://www.mongodb.com",
+    "logo": "🏢",
+    "career_url": "https://www.mongodb.com/careers"
+  },
+  {
+    "name": "Elastic",
+    "url": "https://www.elastic.co",
+    "logo": "🏢",
+    "career_url": "https://www.elastic.co/about/careers"
+  },
+  {
+    "name": "Splunk",
+    "url": "https://www.splunk.com",
+    "logo": "🏢",
+    "career_url": "https://www.splunk.com/en_us/careers.html"
+  },
+  {
+    "name": "Palantir",
+    "url": "https://www.palantir.com",
+    "logo": "🏢",
+    "career_url": "https://www.palantir.com/careers/"
+  },
+  {
+    "name": "Coinbase",
+    "url": "https://www.coinbase.com",
+    "logo": "🏢",
+    "career_url": "https://www.coinbase.com/careers"
+  },
+  {
+    "name": "Kraken",
+    "url": "https://www.kraken.com",
+    "logo": "🏢",
+    "career_url": "https://www.kraken.com/careers"
+  },
+  {
+    "name": "Binance",
+    "url": "https://www.binance.com",
+    "logo": "🏢",
+    "career_url": "https://www.binance.com/en/careers"
+  },
+  {
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "logo": "🏢",
+    "career_url": "https://openai.com/careers"
+  },
+  {
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "logo": "🏢",
+    "career_url": "https://www.anthropic.com/careers"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "logo": "🏢",
+    "career_url": "https://huggingface.co/careers"
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Stability AI",
+    "url": "https://stability.ai",
+    "logo": "🏢",
+    "career_url": "https://stability.ai/careers"
+  },
+  {
+    "name": "Scale AI",
+    "url": "https://scale.com",
+    "logo": "🏢",
+    "career_url": "https://scale.com/careers"
+  },
+  {
+    "name": "Klarna",
+    "url": "https://www.klarna.com",
+    "logo": "🏢",
+    "career_url": "https://www.klarna.com/careers/"
+  },
+  {
+    "name": "Revolut",
+    "url": "https://www.revolut.com",
+    "logo": "🏢",
+    "career_url": "https://www.revolut.com/careers/"
+  },
+  {
+    "name": "Monzo",
+    "url": "https://monzo.com",
+    "logo": "🏢",
+    "career_url": "https://monzo.com/careers/"
+  },
+  {
+    "name": "Deliveroo",
+    "url": "https://careers.deliveroo.co.uk/",
+    "logo": "🏢",
+    "career_url": "https://careers.deliveroo.co.uk/"
+  },
+  {
+    "name": "Delivery Hero",
+    "url": "https://careers.deliveryhero.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.deliveryhero.com/"
+  },
+  {
+    "name": "Just Eat Takeaway",
+    "url": "https://careers.justeattakeaway.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.justeattakeaway.com/"
+  },
+  {
+    "name": "Zalando",
+    "url": "https://jobs.zalando.com/",
+    "logo": "🏢",
+    "career_url": "https://jobs.zalando.com/"
+  },
+  {
+    "name": "HelloFresh",
+    "url": "https://careers.hellofresh.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.hellofresh.com/"
+  },
+  {
+    "name": "Adyen",
+    "url": "https://careers.adyen.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.adyen.com/"
+  },
+  {
+    "name": "Criteo",
+    "url": "https://careers.criteo.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.criteo.com/"
+  },
+  {
+    "name": "Booking.com",
+    "url": "https://careers.booking.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.booking.com/"
+  },
+  {
+    "name": "Skyscanner",
+    "url": "https://www.skyscanner.net",
+    "logo": "🏢",
+    "career_url": "https://www.skyscanner.net/jobs/"
+  },
+  {
+    "name": "Trivago",
+    "url": "https://company.trivago.com",
+    "logo": "🏢",
+    "career_url": "https://company.trivago.com/careers/"
+  },
+  {
+    "name": "Babbel",
+    "url": "https://jobs.babbel.com/",
+    "logo": "🏢",
+    "career_url": "https://jobs.babbel.com/"
+  },
+  {
+    "name": "Duolingo",
+    "url": "https://careers.duolingo.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.duolingo.com/"
+  },
+  {
+    "name": "Vinted",
+    "url": "https://www.vinted.com",
+    "logo": "🏢",
+    "career_url": "https://www.vinted.com/jobs"
+  },
+  {
+    "name": "Trade Republic",
+    "url": "https://careers.traderepublic.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.traderepublic.com/"
+  },
+  {
+    "name": "Bitpanda",
+    "url": "https://www.bitpanda.com",
+    "logo": "🏢",
+    "career_url": "https://www.bitpanda.com/en/careers"
+  },
+  {
+    "name": "Mollie",
+    "url": "https://jobs.mollie.com/",
+    "logo": "🏢",
+    "career_url": "https://jobs.mollie.com/"
+  },
+  {
+    "name": "Checkout.com",
+    "url": "https://www.checkout.com",
+    "logo": "🏢",
+    "career_url": "https://www.checkout.com/careers"
+  },
+  {
+    "name": "Wise",
+    "url": "https://wise.jobs/",
+    "logo": "🏢",
+    "career_url": "https://wise.jobs/"
+  },
+  {
+    "name": "Plaid",
+    "url": "https://plaid.com",
+    "logo": "🏢",
+    "career_url": "https://plaid.com/careers/"
+  },
+  {
+    "name": "Affirm",
+    "url": "https://www.affirm.com",
+    "logo": "🏢",
+    "career_url": "https://www.affirm.com/careers"
+  },
+  {
+    "name": "Robinhood",
+    "url": "https://careers.robinhood.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.robinhood.com/"
+  },
+  {
+    "name": "Martı",
+    "url": "https://www.marti.tech",
+    "logo": "🏢",
+    "career_url": "https://www.marti.tech/kariyer"
+  },
+  {
+    "name": "Papel",
+    "url": "https://papel.com.tr",
+    "logo": "🏢"
+  },
+  {
+    "name": "Ozan SuperApp",
+    "url": "https://www.ozan.com",
+    "logo": "🏢",
+    "career_url": "https://www.ozan.com/tr/kariyer"
+  },
+  {
+    "name": "Midas",
+    "url": "https://www.getmidas.com",
+    "logo": "🏢",
+    "career_url": "https://www.getmidas.com/kariyer"
+  },
+  {
+    "name": "Kolay İK",
+    "url": "https://kolayik.com",
+    "logo": "🏢",
+    "career_url": "https://kolayik.com/kariyer"
+  },
+  {
+    "name": "Evreka",
+    "url": "https://evreka.co",
+    "logo": "🏢",
+    "career_url": "https://evreka.co/careers/"
+  },
+  {
+    "name": "Thread In Motion",
+    "url": "https://www.threadinmotion.com",
+    "logo": "🏢"
+  },
+  {
+    "name": "V-Count",
+    "url": "https://v-count.com",
+    "logo": "🏢",
+    "career_url": "https://v-count.com/careers/"
+  },
+  {
+    "name": "Tarfin",
+    "url": "https://tarfin.com",
+    "logo": "🏢",
+    "career_url": "https://tarfin.com/kariyer"
+  },
+  {
+    "name": "Figopara",
+    "url": "https://figopara.com",
+    "logo": "🏢",
+    "career_url": "https://figopara.com/kariyer"
+  },
+  {
+    "name": "Norma",
+    "url": "https://www.norma.co",
+    "logo": "🏢",
+    "career_url": "https://www.norma.co/tr/kariyer"
+  },
+  {
+    "name": "Paycore",
+    "url": "https://www.paycore.com",
+    "logo": "🏢",
+    "career_url": "https://www.paycore.com/kariyer/"
+  },
+  {
+    "name": "Definex",
+    "url": "https://teamdefinex.com",
+    "logo": "🏢",
+    "career_url": "https://teamdefinex.com/careers"
+  },
+  {
+    "name": "KoçDigital",
+    "url": "https://kocdigital.com.tr",
+    "logo": "🏢",
+    "career_url": "https://kocdigital.com.tr/kariyer"
+  },
+  {
+    "name": "SabancıDx",
+    "url": "https://www.sabancidx.com",
+    "logo": "🏢",
+    "career_url": "https://www.sabancidx.com/kariyer"
+  },
+  {
+    "name": "Vodafone Teknoloji",
+    "url": "https://careers.vodafone.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.vodafone.com/"
+  },
+  {
+    "name": "Enoca",
+    "url": "https://enoca.com",
+    "logo": "🏢",
+    "career_url": "https://enoca.com/kariyer/"
+  },
+  {
+    "name": "Armut",
+    "url": "https://armut.com",
+    "logo": "🏢",
+    "career_url": "https://armut.com/kariyer"
+  },
+  {
+    "name": "Tapu.com",
+    "url": "https://www.tapu.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Yenibiris",
+    "url": "https://www.yenibiris.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Secretcv",
+    "url": "https://www.secretcv.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Eleman.net",
+    "url": "https://www.eleman.net/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Cimri",
+    "url": "https://www.cimri.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Akakce",
+    "url": "https://www.akakce.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "PttAVM",
+    "url": "https://www.pttavm.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Biletix",
+    "url": "https://www.biletix.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Turna",
+    "url": "https://www.turna.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Setur",
+    "url": "https://www.setur.com.tr/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Pegasus",
+    "url": "https://www.flypgs.com",
+    "logo": "🏢",
+    "career_url": "https://www.flypgs.com/kariyer"
+  },
+  {
+    "name": "Turkish Airlines Technology",
+    "url": "https://careers.turkishairlines.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.turkishairlines.com/"
+  },
+  {
+    "name": "SunExpress",
+    "url": "https://www.sunexpress.com",
+    "logo": "🏢",
+    "career_url": "https://www.sunexpress.com/tr/kariyer/"
+  },
+  {
+    "name": "Corendon",
+    "url": "https://www.corendonairlines.com",
+    "logo": "🏢",
+    "career_url": "https://www.corendonairlines.com/tr/kariyer"
+  },
+  {
+    "name": "Otokar",
+    "url": "https://www.otokar.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.otokar.com.tr/kariyer"
+  },
+  {
+    "name": "Karsan",
+    "url": "https://www.karsan.com",
+    "logo": "🏢",
+    "career_url": "https://www.karsan.com/tr/kariyer"
+  },
+  {
+    "name": "Vestel",
+    "url": "https://kariyer.vestel.com.tr/",
+    "logo": "🏢",
+    "career_url": "https://kariyer.vestel.com.tr/"
+  },
+  {
+    "name": "Arçelik",
+    "url": "https://www.arcelikglobal.com",
+    "logo": "🏢",
+    "career_url": "https://www.arcelikglobal.com/tr/kariyer/"
+  },
+  {
+    "name": "Beko",
+    "url": "https://www.bekocareers.com/",
+    "logo": "🏢",
+    "career_url": "https://www.bekocareers.com/"
+  },
+  {
+    "name": "Tusas",
+    "url": "https://www.tusas.com",
+    "logo": "🏢",
+    "career_url": "https://www.tusas.com/kariyer"
+  },
+  {
+    "name": "Baykar",
+    "url": "https://kariyer.baykartech.com/",
+    "logo": "🏢",
+    "career_url": "https://kariyer.baykartech.com/"
+  },
+  {
+    "name": "STM",
+    "url": "https://www.stm.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.stm.com.tr/tr/kariyer"
+  },
+  {
+    "name": "Ctech",
+    "url": "https://ctech.com.tr",
+    "logo": "🏢",
+    "career_url": "https://ctech.com.tr/tr/kariyer"
+  },
+  {
+    "name": "Pavo Tasarım",
+    "url": "https://www.pavotek.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.pavotek.com.tr/kariyer/"
+  },
+  {
+    "name": "Tarentum",
+    "url": "https://www.tarentum.io",
+    "logo": "🏢",
+    "career_url": "https://www.tarentum.io/careers"
+  },
+  {
+    "name": "Inveon",
+    "url": "https://www.inveon.com",
+    "logo": "🏢",
+    "career_url": "https://www.inveon.com/careers/"
+  },
+  {
+    "name": "Ticimax",
+    "url": "https://www.ticimax.com",
+    "logo": "🏢",
+    "career_url": "https://www.ticimax.com/kariyer/"
+  },
+  {
+    "name": "T-Soft",
+    "url": "https://www.tsoft.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.tsoft.com.tr/kariyer.php"
+  },
+  {
+    "name": "Proje Yönetim",
+    "url": "https://www.projeyonetim.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Pisano",
+    "url": "https://www.pisano.co",
+    "logo": "🏢",
+    "career_url": "https://www.pisano.co/careers"
+  },
+  {
+    "name": "Evam",
+    "url": "https://evam.com",
+    "logo": "🏢",
+    "career_url": "https://evam.com/careers/"
+  },
+  {
+    "name": "Datarobot",
+    "url": "https://www.datarobot.com",
+    "logo": "🏢",
+    "career_url": "https://www.datarobot.com/careers/"
+  },
+  {
+    "name": "Zeplin",
+    "url": "https://zeplin.io",
+    "logo": "🏢",
+    "career_url": "https://zeplin.io/careers/"
+  },
+  {
+    "name": "Picnic",
+    "url": "https://picnic.app",
+    "logo": "🏢",
+    "career_url": "https://picnic.app/careers/"
+  },
+  {
+    "name": "Just Eat",
+    "url": "https://careers.justeattakeaway.com/",
+    "logo": "🏢",
+    "career_url": "https://careers.justeattakeaway.com/"
+  },
+  {
+    "name": "MUBI",
+    "url": "https://mubi.com",
+    "logo": "🏢",
+    "career_url": "https://mubi.com/jobs"
+  },
+  {
+    "name": "BluTV",
+    "url": "https://www.blutv.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Exxen",
+    "url": "https://www.exxen.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "D-Smart",
+    "url": "https://www.dsmart.com.tr/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Turkcell TV+",
+    "url": "https://tvplus.com.tr/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Kafa Topu",
+    "url": "https://masomo.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "TaleWorlds",
+    "url": "https://www.taleworlds.com",
+    "logo": "🏢",
+    "career_url": "https://www.taleworlds.com/en/Careers"
+  },
+  {
+    "name": "Crytek",
+    "url": "https://www.crytek.com",
+    "logo": "🏢",
+    "career_url": "https://www.crytek.com/career"
+  },
+  {
+    "name": "Peak",
+    "url": "https://peak.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Rollic",
+    "url": "https://rollicgames.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Ruby Games",
+    "url": "https://rubygames.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Ace Games",
+    "url": "https://ace.games/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Zuuks Games",
+    "url": "https://www.zuuks.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Gripati",
+    "url": "https://gripati.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Tiramisu",
+    "url": "https://tiramisu.game/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Alictus",
+    "url": "https://alictus.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Garanti BBVA",
+    "url": "https://kariyer.garantibbva.com.tr/",
+    "logo": "🏢",
+    "career_url": "https://kariyer.garantibbva.com.tr/"
+  },
+  {
+    "name": "İş Bankası",
+    "url": "https://kariyer.isbank.com.tr/",
+    "logo": "🏢",
+    "career_url": "https://kariyer.isbank.com.tr/"
+  },
+  {
+    "name": "Yapı Kredi",
+    "url": "https://www.yapikredikariyer.com.tr/",
+    "logo": "🏢",
+    "career_url": "https://www.yapikredikariyer.com.tr/"
+  },
+  {
+    "name": "QNB Finansbank",
+    "url": "https://www.qnbfinansbank.com",
+    "logo": "🏢",
+    "career_url": "https://www.qnbfinansbank.com/kariyer"
+  },
+  {
+    "name": "VakıfBank",
+    "url": "https://www.vakifbank.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.vakifbank.com.tr/kariyer.aspx"
+  },
+  {
+    "name": "Halkbank",
+    "url": "https://www.halkbank.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.halkbank.com.tr/tr/hakkimizda/insan-kaynaklari/kariyer.html"
+  },
+  {
+    "name": "Ziraat Bankası",
+    "url": "https://www.ziraatbank.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.ziraatbank.com.tr/tr/bankamiz/insan-kaynaklari"
+  },
+  {
+    "name": "TEB",
+    "url": "https://www.teb.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.teb.com.tr/kariyer/"
+  },
+  {
+    "name": "Türkiye Finans",
+    "url": "https://www.turkiyefinans.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.turkiyefinans.com.tr/tr-tr/hakkimizda/insan-kaynaklari/Sayfalar/kariyer.aspx"
+  },
+  {
+    "name": "Burgan Bank",
+    "url": "https://www.burgan.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.burgan.com.tr/insan-kaynaklari/kariyer"
+  },
+  {
+    "name": "Alternatif Bank",
+    "url": "https://www.alternatifbank.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.alternatifbank.com.tr/hakkimizda/insan-kaynaklari"
+  },
+  {
+    "name": "Aktif Bank",
+    "url": "https://www.aktifbank.com.tr",
+    "logo": "🏢",
+    "career_url": "https://www.aktifbank.com.tr/tr/hakkimizda/insan-kaynaklari"
+  },
+  {
+    "name": "Ozan",
+    "url": "https://www.ozan.com",
+    "logo": "🏢",
+    "career_url": "https://www.ozan.com/tr/kariyer"
+  },
+  {
+    "name": "Moka",
+    "url": "https://moka.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Birleşik Ödeme",
+    "url": "https://www.unitedpayment.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Elekse",
+    "url": "https://elekse.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Turkcell Paycell",
+    "url": "https://paycell.com.tr/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Vodafone Pay",
+    "url": "https://www.vodafonepay.com.tr/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Tomya",
+    "url": "https://www.tomya.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "BtcTurk PRO",
+    "url": "https://pro.btcturk.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Binance TR",
+    "url": "https://www.trbinance.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Vakko",
+    "url": "https://www.vakko.com/",
+    "logo": "🏢"
+  },
+  {
+    "name": "Mavi",
+    "url": "https://www.mavi.com/",
+    "logo": "🏢"
+  }
+]

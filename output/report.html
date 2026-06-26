@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senior Front-End İlanları Türkiye • 26.06.2026 20:53</title>
+<meta name="description" content="Türkiye'deki yazılım firmalarından senior front-end developer ilanları">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --bg2: #111827;
+    --bg3: #1a2236;
+    --border: #1e2d45;
+    --text: #e2e8f0;
+    --text-dim: #64748b;
+    --accent: #3b82f6;
+    --accent2: #10b981;
+    --accent3: #8b5cf6;
+    --danger: #ef4444;
+    --gold: #f59e0b;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% -30%, rgba(59,130,246,0.25) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(59,130,246,0.15);
+    border: 1px solid rgba(59,130,246,0.3);
+    color: #93c5fd;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 700;
+    background: linear-gradient(135deg, #e2e8f0, #93c5fd, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.75rem;
+  }
+  .hero p {
+    color: var(--text-dim);
+    font-size: 1rem;
+  }
+
+  /* ── Stats ── */
+  .stats-bar {
+    display: flex;
+    gap: 1px;
+    background: var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .stat {
+    flex: 1;
+    background: var(--bg2);
+    padding: 1.25rem;
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    display: block;
+    line-height: 1;
+  }
+  .stat .label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* ── Toolbar ── */
+  .toolbar {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+  }
+  .search-box {
+    flex: 1;
+    min-width: 250px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.625rem 1rem 0.625rem 2.5rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus { border-color: var(--accent); }
+  .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+  .filter-select {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.625rem 1rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-family: inherit;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .filter-select:focus { border-color: var(--accent); }
+  .result-count {
+    color: var(--text-dim);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  .result-count span { color: var(--accent); font-weight: 600; }
+
+  /* ── Grid ── */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 1.25rem;
+  }
+
+  /* ── Card ── */
+  .job-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+  .job-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent2), var(--accent), var(--accent3));
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .job-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(59,130,246,0.35);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(59,130,246,0.1);
+  }
+  .job-card:hover::before { opacity: 1; }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .logo {
+    font-size: 1.75rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1;
+    min-width: 0;
+  }
+  .company-name {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .source-badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #60a5fa;
+    background: rgba(59,130,246,0.12);
+    border: 1px solid rgba(59,130,246,0.2);
+    padding: 1px 7px;
+    border-radius: 50px;
+    align-self: flex-start;
+  }
+  .job-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #34d399;
+    line-height: 1.4;
+    flex: 1;
+  }
+  .job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .meta-item {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    background: var(--bg3);
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+  .tag {
+    font-size: 0.7rem;
+    color: #a78bfa;
+    background: rgba(139,92,246,0.1);
+    border: 1px solid rgba(139,92,246,0.2);
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .apply-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    background: linear-gradient(135deg, #059669, #10b981);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: opacity 0.15s, transform 0.15s;
+    margin-top: auto;
+  }
+  .apply-btn:hover { opacity: 0.9; transform: scale(1.02); }
+  .arrow { transition: transform 0.15s; }
+  .apply-btn:hover .arrow { transform: translateX(4px); }
+
+  /* ── Empty state ── */
+  .empty {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 5rem 2rem;
+    color: var(--text-dim);
+  }
+  .empty h2 { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text); }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 640px) {
+    .stats-bar { flex-wrap: wrap; }
+    .stat { min-width: 50%; }
+    .hero { padding: 2rem 1rem; }
+    .container { padding: 1rem; }
+    .job-grid { grid-template-columns: 1fr; }
+    .toolbar { padding: 0.75rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-badge">🔍 Otomatik Tarama</div>
+  <h1>Senior Front-End Developer İlanları</h1>
+  <p>Türkiye'deki yazılım firmalarının kariyer sayfaları ve iş platformları • 26.06.2026 20:53</p>
+</div>
+
+<div class="stats-bar">
+  <div class="stat">
+    <span class="num" id="totalCount">32</span>
+    <span class="label">Toplam İlan</span>
+  </div>
+  <div class="stat">
+    <span class="num">25</span>
+    <span class="label">Farklı Şirket</span>
+  </div>
+  <div class="stat">
+    <span class="num">1</span>
+    <span class="label">Kaynak Platform</span>
+  </div>
+  <div class="stat">
+    <span class="num">26.06.2026</span>
+    <span class="label">Güncelleme</span>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Pozisyon veya şirket ara..." oninput="filterJobs()">
+  </div>
+  <select class="filter-select" id="sourceFilter" onchange="filterJobs()">
+    <option value="">Tüm Kaynaklar</option>
+    <option value="linkedin">linkedin (32)</option>
+  </select>
+  <div class="result-count">Gösterilen: <span id="shownCount">32</span> ilan</div>
+</div>
+
+<div class="container">
+  <div class="job-grid" id="jobGrid">
+    
+        <div class="job-card" data-title="senior full stack developer (java / react) – pacs & teleradyoloji sistemleri" data-company="akgün" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">AKGÜN</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Full Stack Developer (Java / React) – PACS & Teleradyoloji Sistemleri</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-full-stack-developer-java-react-%E2%80%93-pacs-teleradyoloji-sistemleri-at-akg%C3%BCn-4423923716?position=16&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=rTZ0F8o9%2BiERgIk%2BO8HhNQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer" data-company="agito software & consulting" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Agito Software & Consulting</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-at-agito-software-consulting-4432943748?position=38&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=HZ7eyEbznzOnRME3brdcbQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="sr. frontend developer" data-company="akakçe" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Akakçe</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Sr. Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/sr-frontend-developer-at-akak%C3%A7e-4432996514?position=32&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=ALOnMLQyJx92OKfYfwaKMg%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="frontend developer (hybrid)" data-company="amaris consulting" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Amaris Consulting</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Frontend Developer (Hybrid)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Greater Istanbul</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/frontend-developer-hybrid-at-amaris-consulting-4414229165?position=3&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=80JoK%2FYEtHduYUIC4s%2FuSQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior rf front-end application engineer" data-company="analog devices" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Analog Devices</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior RF Front-End Application Engineer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Greater Istanbul</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-rf-front-end-application-engineer-at-analog-devices-4405521720?position=49&pageNum=0&refId=SEsVhwaqWann3%2BKaXUZgsA%3D%3D&trackingId=eKK28tkeUYpCMWp0dWNzcg%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="full stack developer (react,.net)" data-company="architecht" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Architecht</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Full Stack Developer (React,.NET)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Pendik</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/full-stack-developer-react-net-at-architecht-4413539837?position=11&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=DjtXrB%2FJmWMie0e9hi%2FZdQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="frontend developer" data-company="bgts international" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">BGTS International</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/frontend-developer-at-bgts-%C4%B1nternational-4431208433?position=1&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=hUp08MgqBTH4wYd5RrkWtw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="front end software engineer" data-company="blueclip" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Blueclip</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Front End Software Engineer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/front-end-software-engineer-at-blueclip-4417881408?position=44&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=byeCf2V1uce25zOmqDlbFA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="frontend software engineer" data-company="bubilet" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Bubilet</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Frontend Software Engineer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İzmir</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/frontend-software-engineer-at-bubilet-4430216495?position=11&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=tI9ezFUiWz56p1KbP8CYXw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior web frontend engineer (angular)" data-company="commencis" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Commencis</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Web Frontend Engineer (Angular)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-web-frontend-engineer-angular-at-commencis-4411146132?position=15&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=V1lbahibmd9B2bgOv3%2FbdQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="web developer" data-company="gyt bilişim" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">GYT Bilişim</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Web Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Maltepe</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/web-developer-at-gyt-bili%C5%9Fim-4426626497?position=22&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=PqnORX6TZw0%2FuYJNPGoakQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer" data-company="jotform" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Jotform</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-at-jotform-4328008446?position=12&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=wsC3IbUNNURPNMIn4uNNtg%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior react native developer" data-company="jotform" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Jotform</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior React Native Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-react-native-developer-at-jotform-4327888869?position=19&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=kLmIWBkh9%2Bomlqpvfj%2FSdA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior front-end developer" data-company="market calculus türkiye" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Market Calculus Türkiye</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Front-End Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-front-end-developer-at-market-calculus-t%C3%BCrkiye-4429875541?position=5&pageNum=0&refId=SEsVhwaqWann3%2BKaXUZgsA%3D%3D&trackingId=tJqQkDBQkZVkiVCFoX3n2A%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="freelance frontend developer (landing pages & websites)" data-company="mindrift" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Mindrift</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Freelance Frontend Developer (Landing Pages & Websites)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/freelance-frontend-developer-landing-pages-websites-at-mindrift-4431322016?position=2&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=czHdr%2Fy96%2Bf8ZM6cpn4VeA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer" data-company="octet türkiye" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Octet Türkiye</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-at-octet-turkey-4427849060?position=5&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=FzxVolTtfUdjX%2FPpPfBi1g%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer (angular.js/react.js)" data-company="proxify" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Proxify</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer (Angular.js/React.js)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-angular-js-react-js-at-proxify-4304687757?position=6&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=l7%2Fdemr%2BuE1iRbQhs1u9aA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer (react.js+next.js)" data-company="proxify" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Proxify</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer (React.js+Next.js)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-react-js%2Bnext-js-at-proxify-4304675928?position=7&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=yLmq1yt1ogvzsbBbeYSpFw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer (vue.js)" data-company="proxify" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Proxify</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer (Vue.js)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-vue-js-at-proxify-4418942791?position=14&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=4tBphcmFebLPdsV6%2FVzbsw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior next.js developer" data-company="proxify" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Proxify</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Next.js Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-next-js-developer-at-proxify-4288906564?position=18&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=LAVRvyYi7y9BcOyQgpOkcw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="frontend developer (cms & digital experience)" data-company="quintet works" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Quintet Works</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Frontend Developer (CMS & Digital Experience)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/frontend-developer-cms-digital-experience-at-quintet-works-4429847632?position=58&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=TrjUtjKfieEQIqeYRApuKQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="principal frontend developer" data-company="roamless" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Roamless</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Principal Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/principal-frontend-developer-at-roamless-4416922043?position=10&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=0ZO6OhZ%2BbFc7wJwyspUdoQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="full-stack engineer (next.js)" data-company="ruby labs" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Ruby Labs</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Full-Stack Engineer (Next.js)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/full-stack-engineer-next-js-at-ruby-labs-4432860521?position=9&pageNum=0&refId=CTlX0d%2Bd%2B9X9uNsXZwH0%2Fg%3D%3D&trackingId=N2d1yNcLs3GUrhE74nv%2FJg%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior full-stack engineer (next.js)" data-company="ruby labs" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Ruby Labs</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Full-Stack Engineer (Next.js)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-full-stack-engineer-next-js-at-ruby-labs-4432849805?position=23&pageNum=0&refId=CTlX0d%2Bd%2B9X9uNsXZwH0%2Fg%3D%3D&trackingId=JKfpaINVTw4Qy0NzcMT4%2Fw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="frontend engineer & ui designer (developer tooling)" data-company="searchapi" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">SearchApi</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Frontend Engineer & UI Designer (Developer Tooling)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/frontend-engineer-u%C4%B1-designer-developer-tooling-at-searchapi-4432297016?position=4&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=Cbe4jzm%2F7aTKfQwGYH4b0A%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior frontend developer" data-company="tatilsepeti" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Tatilsepeti</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Frontend Developer</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-frontend-developer-at-tatilsepeti-4414810455?position=27&pageNum=0&refId=ChOt6kE36UoInjlLC0mF9Q%3D%3D&trackingId=s0d%2BV4AqMWTGIcUEOuB2mA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="full stack engineer (python/react) - ankara, tr" data-company="trustlab" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">TrustLab</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Full Stack Engineer (Python/React) - Ankara, TR</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ankara</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/full-stack-engineer-python-react-ankara-tr-at-trustlab-4430784640?position=13&pageNum=0&refId=CTlX0d%2Bd%2B9X9uNsXZwH0%2Fg%3D%3D&trackingId=JgUNJ6JLzZpurQqohdUsRQ%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="angular developer - remote" data-company="yo it consulting" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">YO IT Consulting</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Angular Developer - Remote</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/angular-developer-remote-at-yo-%C4%B1t-consulting-4426682762?position=8&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=Niwit%2BA0vPXRGZ1UdLbE2w%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="vue.js/nuxt developer - remote" data-company="yo it consulting" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">YO IT Consulting</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Vue.js/Nuxt Developer - Remote</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/vue-js-nuxt-developer-remote-at-yo-%C4%B1t-consulting-4427419057?position=13&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=jkL2klY%2BZhU2iONM1ZWCcA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="javascript qa lead - remote" data-company="yo it consulting" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">YO IT Consulting</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">JavaScript QA Lead - Remote</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/javascript-qa-lead-remote-at-yo-%C4%B1t-consulting-4433010495?position=36&pageNum=0&refId=CTlX0d%2Bd%2B9X9uNsXZwH0%2Fg%3D%3D&trackingId=HWRPzdjbCxOOsMFvfZaDcw%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="full stack mobil geliştirici (react native / flutter + supabase/firebase)" data-company="yellow software" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">Yellow Software</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Full Stack Mobil Geliştirici (React Native / Flutter + Supabase/Firebase)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 Ataşehir</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://www.linkedin.com/jobs/search/?keywords=react+developer&location=Turkey&f_TPR=r2592000&f_E=4" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+        <div class="job-card" data-title="senior software developer (frontend)" data-company="adesso turkey" data-source="linkedin">
+          <div class="card-header">
+            <span class="logo">💼</span>
+            <div class="company-info">
+              <span class="company-name">adesso Turkey</span>
+              <span class="source-badge">linkedin</span>
+            </div>
+          </div>
+          <div class="job-title">Senior Software Developer (Frontend)</div>
+          <div class="job-meta">
+            <span class="meta-item">📍 İstanbul, Türkiye</span>
+            <span class="meta-item">💼 Engineering</span>
+            
+          </div>
+          <a href="https://tr.linkedin.com/jobs/view/senior-software-developer-frontend-at-adesso-turkey-4401058409?position=9&pageNum=0&refId=jrESvu0ag4qEH9T3RskNGA%3D%3D&trackingId=bdxdZa0JdYJee3oVRVS%2BlA%3D%3D" target="_blank" rel="noopener" class="apply-btn">
+            Başvur <span class="arrow">→</span>
+          </a>
+        </div>
+  </div>
+  <div class="empty" id="emptyState" style="display:none;">
+    <h2>😔 Sonuç bulunamadı</h2>
+    <p>Arama kriterlerini değiştirin.</p>
+  </div>
+</div>
+
+<footer>
+  🤖 ilanSearch v2 • Otomatik oluşturuldu: 26.06.2026 20:53 •
+  <a href="latest.json" style="color:#60a5fa">JSON olarak indir</a>
+</footer>
+
+<script>
+const cards = [...document.querySelectorAll('.job-card')];
+
+function filterJobs() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const src = document.getElementById('sourceFilter').value;
+  let shown = 0;
+
+  cards.forEach(c => {
+    const titleMatch = !q || c.dataset.title.includes(q) || c.dataset.company.includes(q);
+    const srcMatch = !src || c.dataset.source.startsWith(src);
+    const visible = titleMatch && srcMatch;
+    c.style.display = visible ? '' : 'none';
+    if (visible) shown++;
+  });
+
+  document.getElementById('shownCount').textContent = shown;
+  document.getElementById('emptyState').style.display = shown === 0 ? 'flex' : 'none';
+}
+</script>
+
+</body>
+</html>
