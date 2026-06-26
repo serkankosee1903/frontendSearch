@@ -4,6 +4,7 @@
 import os
 import json
 import time
+import html
 from pathlib import Path
 import requests
 
@@ -33,6 +34,8 @@ def send_telegram_message(bot_token, chat_id, message):
     }
     try:
         r = requests.post(url, json=payload, timeout=10)
+        if r.status_code != 200:
+            print(f"Telegram API Error: {r.status_code} - {r.text}")
         return r.status_code == 200
     except Exception as e:
         print(f"Telegram error: {e}")
@@ -79,17 +82,24 @@ def main():
     
     sent_count = 0
     for job in new_jobs:
+        company = html.escape(job.get('company', ''))
+        title = html.escape(job.get('title', ''))
+        location = html.escape(job.get('location', ''))
+        source = html.escape(job.get('source', ''))
+
         msg = f"🚀 <b>YENİ İLAN BULDUM!</b>\n\n"
-        msg += f"🏢 <b>Firma:</b> {job['company']}\n"
-        msg += f"👨‍💻 <b>Pozisyon:</b> {job['title']}\n"
-        msg += f"📍 <b>Konum:</b> {job['location']}\n"
-        msg += f"🌐 <b>Kaynak:</b> {job['source']}\n\n"
+        msg += f"🏢 <b>Firma:</b> {company}\n"
+        msg += f"👨‍💻 <b>Pozisyon:</b> {title}\n"
+        msg += f"📍 <b>Konum:</b> {location}\n"
+        msg += f"🌐 <b>Kaynak:</b> {source}\n\n"
         msg += f"<a href='{job['url']}'>🔗 İlana Git / Başvur</a>"
         
         if send_telegram_message(bot_token, chat_id, msg):
             sent_jobs.add(job["id"])
             sent_count += 1
             time.sleep(1) # Prevent hitting rate limits
+        else:
+            print(f"Failed to send message for job: {title}")
             
     # Save the updated sent jobs back
     try:
